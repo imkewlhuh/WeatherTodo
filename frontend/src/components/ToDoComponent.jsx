@@ -100,7 +100,7 @@ export default function ToDoComponent() {
     }
     return (
         <div className="todoContainer">
-            <h1>To-Do List <span><Fab onClick={handleAdd} size="small"><AddIcon /></Fab></span></h1>
+            <h1>To-Do List <span><Fab onClick={handleAdd} size="small">{showAdd ? <CheckIcon /> : <AddIcon />}</Fab></span></h1>
             {
                 showAdd ?
                     <TextField
