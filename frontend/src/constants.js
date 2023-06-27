@@ -5,7 +5,7 @@ let apiURL = '';
 if (process.env.NODE_ENV === 'development') {
     apiURL = 'http://localhost:8080';
 } else {
-    apiURL = "https://capstone-group-3-production.up.railway.app";
+    apiURL = "https://weathertodo-production.up.railway.app";
 }
 
 export const baseURL = apiURL;
