@@ -44,7 +44,7 @@
     justify-content: center;
     overflow-x: auto;
     padding: 0.5em;
-    /* padding-left: 30em; */
+    padding-left: 42em;
 }
 
 .hourlyWeather {
@@ -121,5 +121,77 @@
 @media (width < 1000px) {
     .weatherContainer, .todoContainer {
         width: 95%;
+    }
+}
+
+@media (width > 800px) {
+    .hourlyBox {
+        padding-left: 40em;
+    }
+}
+
+@media (width > 900px) {
+    .hourlyBox {
+        padding-left: 35em;
+    }
+}
+
+@media (width > 1000px) {
+    .hourlyBox {
+        padding-left: 42em;
+    }
+}
+
+@media (width > 1150px) {
+    .hourlyBox {
+        padding-left: 38em;
+    }
+}
+
+@media (width > 1250px) {
+    .hourlyBox {
+        padding-left: 35em;
+    }
+}
+
+@media (width > 1350px) {
+    .hourlyBox {
+        padding-left: 30em;
+    }
+}
+
+@media (width > 1450px) {
+    .hourlyBox {
+        padding-left: 25em;
+    }
+}
+
+@media (width > 1550px) {
+    .hourlyBox {
+        padding-left: 20em;
+    }
+}
+
+@media (width > 1650px) {
+    .hourlyBox {
+        padding-left: 15em;
+    }
+}
+
+@media (width > 1800px) {
+    .hourlyBox {
+        padding-left: 10em;
+    }
+}
+
+@media (width > 1900px) {
+    .hourlyBox {
+        padding-left: 5em;
+    }
+}
+
+@media (width > 2000px) {
+    .hourlyBox {
+        padding-left: 0em;
     }
 }
